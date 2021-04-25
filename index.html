@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Turtle</title>
+    <script src="TurtleCanvas.js"></script>
+    <script src="CommandsBar.js"></script>
+    <script src="TurtlePresenter.js"></script>
+</head>
+<body>
+    <h1>Turtle</h1>
+    <div >
+        <canvas id="TurtleBGCanvas" width="500" height="400" style="position: absolute; border:1px solid #000000; z-index: 0;"></canvas>
+        <canvas id="TurtleFGCanvas" width="500" height="400" style="position: relative; border:1px solid #000000; z-index: 1;"></canvas>
+    </div>
+    <div >
+        <input id="commandsInput" type="text">
+        <input id="playButton" type="button" value="Play">
+        <input id="clearButton" type="button" value="Clear">
+    </div>
+    <script src="TurtleApp.js"></script>
+</body>
+</html>
